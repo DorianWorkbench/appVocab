@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.jouer.Note_Affichage">
+
+    <TextView
+        android:id="@+id/lblScoreTxt"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Votre note est de :"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+    />
+    <TextView
+        android:id="@+id/lblAffNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80dp"
+        android:text="--"
+        android:layout_below="@+id/lblScoreTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+    />
+
+    <Button
+        android:id="@+id/btQuitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quitter"
+        android:layout_below="@+id/lblAffNote"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        />
+</RelativeLayout>

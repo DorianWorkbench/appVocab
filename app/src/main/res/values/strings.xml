@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">appVocab</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Main -->
+    <string name="titleMain">Choisissez une action : </string>
+    <string name="btnCreaQuestionnaire">Créer un questionnaire ?</string>
+    <string name="startQuest">Lancer un questionnaire</string>
+    <string name="result">résultats</string>
+
+    <!-- creaQuest -->
+    <string name="title_creaQuest">Veuillez saisir le nom de votre questionnaire :</string>
+    <string name="hint_CreaQuest">Nom du questionnaire ...</string>
+    <string name="valider">Valider</string>
+
+    <!-- AjouterQuestRep -->
+    <string name="nomQuesti">Quest. :  </string>
+    <string name="titleAjout">Veuillez saisir votre question ainsi que sa réponse associée : </string>
+    <string name="etQuestion">Question ... </string>
+    <string name="etReponse">Reponse ... </string>
+    <string name="btRetour">Retour</string>
+    <string name="btTerminer">Terminer</string>
+
+    <!-- LancerQuest -->
+    <string name="titleLancerQuest">Choisissez votre questionnaire</string>
+    <string name="btRetourLancer">Retour</string>
+    <string name="lstQuestio">Quest. </string>
+    <string name="lstReponse">Nb Question</string>
+
+    <!-- StartQuest -->
+    <string name="startNomQuest">Nom questionnaire</string>
+    <string name="startQuestion">Question</string>
+    <string name="startValider">Valider</string>
+    <string name="startRetour">Retour</string>
+    <string name="startNote">Note</string>
+    <string name="startQr">QR</string>
+    <string name="startReponse">Reponse ...</string>
+
+
+</resources>

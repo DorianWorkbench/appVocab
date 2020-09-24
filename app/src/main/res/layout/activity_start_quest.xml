@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.jouer.StartQuest">
+
+    <TextView
+        android:id="@+id/startLblNomQuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/startNomQuest"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/startLblNomQuest"
+        android:layout_marginTop="60dp"
+        android:layout_marginHorizontal="20dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/llStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="85dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/startLblNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:text="@string/startNote" />
+
+            <TextView
+                android:id="@+id/startLblNbQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:text="@string/startQr" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/startLblQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="@string/startQuestion" />
+
+        <EditText
+            android:id="@+id/startEtRep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/startReponse"
+            android:autofillHints="@string/startReponse"
+            android:layout_marginTop="75dp"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/startBtValider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/startValider" />
+
+        <Button
+            android:id="@+id/startBtRetour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:text="@string/startRetour" />
+
+    </LinearLayout>
+
+</RelativeLayout>
